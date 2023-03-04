@@ -1,0 +1,30 @@
+{
+  "name": "node-course-homework-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarynaVyshnevska/Node-Course-Homework.git"
+  },
+  "author": "Maryna Vyshnevska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarynaVyshnevska/Node-Course-Homework/issues"
+  },
+  "homepage": "https://github.com/MarynaVyshnevska/Node-Course-Homework#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.21"
+  }
+}
